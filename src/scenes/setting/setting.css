@@ -1,0 +1,43 @@
+/* Table Container */
+.scrollable-table {
+    max-height: 680px; /* Set the maximum height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    border-collapse: collapse; /* Ensures borders merge seamlessly */
+    border-spacing: 0; /* Removes gaps between cells */
+  }
+  
+  /* Global Table Borders */
+  table, th, td, tr {
+    border: 1px solid black; /* Adds a solid black border */
+    border-collapse: collapse; /* Ensures borders do not double up */
+  }
+  
+  /* Sticky Header */
+  .scrollable-table th {
+    position: sticky;
+    top: 0;
+    z-index: 10; /* Ensure headers are above the rows */
+    background-color: #ffffff; /* Solid background for visibility */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1); /* Optional shadow for clarity */
+    padding: 8px;
+    margin: 0;
+  }
+  
+  /* Group Header */
+  .scrollable-table th.group-header {
+    top: 0;
+    z-index: 15; /* Higher stacking for group headers */
+  }
+  
+  /* Subheader 1 */
+  .scrollable-table th.sub-header {
+    top: 30px; /* Space below group headers */
+    z-index: 12; /* Stacking below group headers */
+  }
+  
+  /* Subheader 2 */
+  .scrollable-table th.sub-header1 {
+    top: 80px; /* Space below subheaders */
+    z-index: 10; /* Stacking below sub-header */
+  }  

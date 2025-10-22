@@ -1,0 +1,72 @@
+.custom-modal {
+    width: 80%;
+    max-width: 100%; /* Set maximum width if needed */
+  }
+  
+  .custom-modal .modal-body {
+    max-height: calc(100vh - 200px); /* Adjust the height according to your needs */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+  }
+  
+  h6{
+    color: black;
+  }
+  
+  .submitBtn {
+    float: right;
+  }
+  
+  /* Add the new CSS rules here */
+  .custom-modal {
+    pointer-events: none; /* Disable pointer events for the modal */
+  }
+  
+  .custom-modal .modal-content {
+    pointer-events: auto; /* Enable pointer events for the modal content */
+  }
+  
+  .manageClasssideBarDiv {
+    width: 250px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #f0f0f0; 
+    overflow-y: auto; 
+  }
+  
+  .manageClassBoxDiv {
+    margin-left: 200px; 
+    padding: 20px; 
+  }
+  
+  .manageClasscontainer {
+    margin-left: 50px;
+  }
+  
+  .manageClassdiv1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .manageClassdiv2 {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .manageClasstopBarDiv{
+    color: #f0f0f0;
+    font-weight: bold;
+    margin-left: 250px;  
+  }  
+
+  .action-buttons {
+    display: flex; /* Use flexbox layout */
+    gap: 1px; /* Add a gap between buttons */
+  }
+
+.action-buttons button {
+    flex: 1; /* Make buttons fill the available space equally */
+  }

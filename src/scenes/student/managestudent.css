@@ -1,0 +1,104 @@
+.custom-modal {
+    width: 80%;
+    max-width: 100%; /* Set maximum width if needed */
+  }
+  
+  .custom-modal .modal-body {
+    max-height: calc(100vh - 200px); /* Adjust the height according to your needs */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+  }
+  
+  h6{
+    color: black;
+  }
+  
+  .submitBtn {
+    float: right;
+  }
+  
+  /* Add the new CSS rules here */
+  .custom-modal {
+    pointer-events: none; /* Disable pointer events for the modal */
+  }
+  
+  .custom-modal .modal-content {
+    pointer-events: auto; /* Enable pointer events for the modal content */
+  }
+
+ .manageStudentsideBarDiv {
+  width: 250px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #f0f0f0; 
+  overflow-y: auto; 
+}
+
+.manageStudentBoxDiv {
+  margin-left: 200px; 
+  padding: 20px; 
+}
+
+.manageStudentcontainer {
+  margin-left: 50px;
+}
+
+.manageStudentdiv1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.manageStudentdiv2 {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.manageStudenttopBarDiv{
+  color: #f0f0f0;
+  font-weight: bold;
+  margin-left: 250px;  
+}
+
+#btnFontIcon {
+  margin-right: 5px;
+}
+
+.styled-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #151632;
+}
+
+.styled-table th, 
+.styled-table td {
+  padding: 8px;
+  border: 1px solid black;
+  text-align: center;
+  color: #0c101b; /* Set font color */
+}
+
+.styled-table th {
+  background-color: #cecccc;
+  font-weight: bold;
+}
+
+.styled-table td {
+  background-color: #f1efef;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.styled-table tr:hover {
+  background-color: #ddd;
+}
+
+.custom-modal-body {
+  color: #151632;
+}
+  

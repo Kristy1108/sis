@@ -1,0 +1,101 @@
+.employeeHometopBarDiv{
+    color: #f0f0f0;
+    font-weight: bold;
+    margin-left: 250px;  
+  }
+  
+.employeeHomesideBarDiv {
+    width: 250px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #f0f0f0;
+    overflow-y: hidden; 
+  }
+  
+  .employeeHomeBoxDiv {
+    margin-left: 200px; 
+    padding: 10px; 
+  }
+
+  .employeeHomecontainer {
+    margin-left: 50px;
+  }
+
+  .employeeHomediv1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .employeeHomediv2 {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .custom-modal {
+    width: 98%;
+    max-width: 100%;
+}
+
+.sticky-column {
+  position: sticky;
+  left: 0;
+  background: white; 
+  z-index: 2; 
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.sticky-header {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: white;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-container {
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  width: 100%; 
+  padding-top: 20px;
+}
+
+.styled-table {
+  width: 80%;
+  max-width: 1200px;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.styled-table thead {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .table-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+  
+  .styled-table {
+      width: 100%;
+  }
+}

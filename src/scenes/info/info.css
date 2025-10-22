@@ -1,0 +1,79 @@
+.custom-modal {
+    width: 80%;
+    max-width: 100%; /* Set maximum width if needed */
+  }
+
+.custom-modal .modal-body {
+  max-height: calc(100vh - 200px); /* Adjust the height according to your needs */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+}
+
+.custom-modal1 {
+  width: 99%;
+  max-width: 100%;
+  margin-top: auto;
+}
+
+.custom-modal-body {
+  max-height: 85vh;
+  overflow: auto;
+}
+
+table, th, td, tr {
+  border: 1px solid black; /* Adds a solid black border */
+  border-collapse: collapse; /* Ensures borders do not double up */
+}
+  
+h6{
+  color: black;
+}
+  
+.submitBtn {
+  float: right;
+}
+
+/* Add the new CSS rules here */
+.custom-modal {
+  pointer-events: none; /* Disable pointer events for the modal */
+}
+
+.custom-modal .modal-content {
+  pointer-events: auto; /* Enable pointer events for the modal content */
+}
+
+.InfoSideBarDiv {
+  width: 250px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #f0f0f0; 
+  overflow-y: auto; 
+}
+
+.InfoBoxDiv {
+  margin-left: 200px; 
+  padding: 20px; 
+}
+
+.InfoContainer {
+  margin-left: 50px;
+}
+
+.InfoDiv1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.InfoDiv2 {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.InfoTopBarDiv{
+  color: #f0f0f0;
+  font-weight: bold;
+  margin-left: 250px;  
+} 

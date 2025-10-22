@@ -1,0 +1,36 @@
+.manageClassTimeSideBarDiv {
+  width: 250px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #f0f0f0; 
+  overflow-y: auto; 
+}
+
+.manageClassTimeBoxDiv {
+  margin-left: 200px; 
+  padding: 20px; 
+}
+
+.manageClassTimecontainer {
+  margin-left: 50px;
+}
+
+.manageClassTimediv1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.manageClassTimediv2 {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.manageClassTimetopBarDiv{
+  color: #f0f0f0;
+  font-weight: bold;
+  margin-left: 250px;  
+}

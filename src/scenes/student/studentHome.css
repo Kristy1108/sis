@@ -1,0 +1,27 @@
+.studentHometopBarDiv{
+    color: #f0f0f0;
+    font-weight: bold;
+    margin-left: 250px;  
+  }
+  
+.studentHomesideBarDiv {
+    width: 250px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #f0f0f0;
+    overflow-y: hidden; 
+}
+
+.studentHomeBoxDiv {
+    width: calc(100% - 450px); 
+    height: 100vh; 
+    margin-left: 250px; 
+    padding: 10px; 
+}
+
+.studentHomecontainer {
+    margin-left: 50px;
+}
+    

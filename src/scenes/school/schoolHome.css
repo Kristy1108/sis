@@ -1,0 +1,21 @@
+.schoolHometopBarDiv{
+  color: #f0f0f0;
+  font-weight: bold;
+  margin-left: 250px;  
+}
+
+.schoolHomesideBarDiv {
+    width: 250px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #f0f0f0; 
+    overflow-y: hidden;
+  }
+  
+  .schoolHomeBoxDiv {
+    margin-left: 230px; 
+    padding: 20px;
+  }
+  
